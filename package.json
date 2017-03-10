@@ -1,0 +1,12 @@
+{
+  "name" : "utility-meter-info",
+  "description" : "Analyzer for utility meter data (Green Button data)",
+  "homepage" : "https://github.com/stmental/utility-meter-info",
+  "keywords" : ["utility meter", "green button data", "electric meter", "electricity usage", "analysis"],
+  "author" : "David Foster <capngwiz@yahoo.com>",
+  "contributors" : [],
+  "dependencies" : [],
+  "repository" : {"type": "git", "url": "https://github.com/stmental/utility-meter-info"},
+  "main" : "",
+  "version" : "0.1.0"
+}
