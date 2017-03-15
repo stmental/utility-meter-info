@@ -4,9 +4,15 @@
   "homepage" : "https://github.com/stmental/utility-meter-info",
   "keywords" : ["utility meter", "green button data", "electric meter", "electricity usage", "analysis"],
   "author" : "David Foster <capngwiz@yahoo.com>",
+  "license": "MIT",
   "contributors" : [],
   "dependencies" : [],
   "repository" : {"type": "git", "url": "https://github.com/stmental/utility-meter-info"},
   "main" : "",
+  "scripts" : {
+    "test": "echo \"Error: no test specified\"",
+    "start": "echo \"Running start script\"",
+    "stop": "echo \"Running stop script\""    
+  },
   "version" : "0.1.0"
 }
