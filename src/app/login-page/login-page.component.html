@@ -1,6 +1,14 @@
 <div class="modal-dialog">
   <div class="loginmodal-container">
     <h1>Login to Your Account</h1><br>
+        <form class="form-signin" role="form">
+        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="" />
+        <input type="password" class="form-control" placeholder="Password" required="" />
+        <label class="checkbox">
+           <a href="#"> Sign Up</a>
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
     <button class="login loginmodal-submit" (click)="login()">Login With Google</button>
   </div>
 </div>
