@@ -1,0 +1,48 @@
+{
+    "force": true,
+    "baseURL": ".",
+    "configPath": "system.config.js",
+    "bundles": {
+        "dist/scripts/app-bundle": {
+            "includes": [
+                "[src/**/*.ts]",
+                "[src/**/*.js]",
+                "src/**/*.html!text",
+                "src/**/*.css!css"
+            ],
+            "excludes": [
+                "[src/exts/**/*]"
+            ],
+            "options": {
+                "inject": true,
+                "minify": false
+            }
+        },
+        "dist/scripts/vendor-bundle": {
+            "includes": [
+                "aurelia-binding",
+                "aurelia-bootstrapper",
+                "aurelia-dependency-injection",
+                "aurelia-event-aggregator",
+                "aurelia-fetch-client",
+                "aurelia-framework",
+                "aurelia-history",
+                "aurelia-history-browser",
+                "aurelia-loader",
+                "aurelia-loader-default",
+                "aurelia-logging-console",
+                "aurelia-pal",
+                "aurelia-pal-browser",
+                "aurelia-templating",
+                "aurelia-templating-binding",
+                "aurelia-templating-resources",
+                "aurelia-templating-router",
+                "moment"
+            ],
+            "options": {
+                "inject": true,
+                "minify": false
+            }
+        }
+    }
+}

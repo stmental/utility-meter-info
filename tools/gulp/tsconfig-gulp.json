@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": "."
+  },
+  "files": [
+    "gulpfile.ts"
+  ]
+}

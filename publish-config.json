@@ -1,0 +1,13 @@
+{
+    "base": ".",
+    "source": "src",
+    "files": [
+        "index.html",
+        "favicon.ico",
+        "system.config.js",
+        "jspm_packages/github/systemjs/**/*",
+        "jspm_packages/system*",
+        "styles/**/*",
+        "src/portal.css"
+    ]
+}

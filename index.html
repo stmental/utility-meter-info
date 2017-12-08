@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</head>
+<body aurelia-app="src/main">
+        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+                apiKey: "AIzaSyC63KivuyPv6GYnG37bban7_6naaRXxU3g",
+                authDomain: "utilitymeter-info.firebaseapp.com",
+                databaseURL: "https://utilitymeter-info.firebaseio.com",
+                projectId: "utilitymeter-info",
+                storageBucket: "utilitymeter-info.appspot.com",
+                messagingSenderId: "882408262398"
+          };
+          firebase.initializeApp(config);
+        </script>
+                
+        <script src="jspm_packages/system.js"></script>
+        <script src="system.config.js"></script>
+        <script>
+            System.import('aurelia-bootstrapper');
+          </script>
+</body>
+</html>
